@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<video src="videoplayback.mp4" autoplay controls id="video">
+
+</video>
+<br>
+<button type="button" name="button"
+onclick="play()"> play</button>
+<button type="button" name="button"
+onclick="pause()"> pause</button>
+
+  </body>
+  <script type="text/javascript">
+  function play(){
+    var
+    vid=document.getElementById('video');
+    vid.play();
+  }function pause(){
+    var
+    vid=document.getElementById('video');
+    vid.pause();
+  }
+  </script>
+
+    <audio src="dhadaksong.mp3" autoplay controls id="audio">
+
+    </audio>
+    <br>
+    <button type="button" name="button"
+    onclick="play()"> play</button>
+    <button type="button" name="button"
+    onclick="pause()"> pause</button>
+
+      </body>
+      <script type="text/javascript">
+      function play(){
+        var
+        audio=document.getElementById('audio');
+        audio.play();
+      }function pause(){
+        var
+        audio=document.getElementById('audio');
+        audio.pause();
+      }
+      </script>
+
+
+</html>
